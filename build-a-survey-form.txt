@@ -1,0 +1,82 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey: Student Feedback</title>
+  </head>
+<body>
+  <h1 id="title">Student Feedback Survey</h1>
+  <p id="description">If you are a student who participated in the Summer Learning Program, please fill out the survey with the required information and any additional comments you may have.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Enter Your First and Last Name: <input id="name" type="text" name="full-name" placeholder="Enter your first and last name, such as Jack Brown." required /></label>
+      <label id="email-label">Please Enter a Valid Email: <input id="email" type="email" name="email" placeholder="Please enter an existing email address, such as john.smith@domain.com." required /> </label>
+      <label id="number-label">How Old Are you?: <input id="number" type="number" min="9" max="14" placeholder="Enter your age as a number, or use the spin box to select an option." required /> </label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Future Grade Level:</label>
+        <select id="dropdown">Future Grade Level:
+          <option value="">Please Select</option>
+          <option value="1">Fourth Grade</option>
+          <option value="2">Fifth Grade</option>
+          <option value="3">Sixth Grade</option>
+          <option value="4">Seventh Grade</option>
+          <option value="5">Eighth Grade</option>
+          </select>
+          </fieldset>
+          <fieldset>
+            <legend>What was your student status while attending the camp?</legend>
+                        <input id="morning" type="radio" name="student-type" value="Part-time (Morning)" />
+            <label for="morning">Part-Time (Morning)</label>
+            <input id="afternoon" type="radio" name="student-type" value="Part-Time (Afternoon)" />
+            <label for="afternoon">Part-Time (Afternoon)</label>
+            <input id="student-full" type="radio" name="student-type" value="Full-Time" />
+            <label for="student-full">Full-Time</label>
+                        </fieldset>
+                        <fieldset>
+                          <legend>Did you participate in any weekend activities?</legend>
+                          <input id="weekend-yes" type="radio" name="weekend" value="Yes!" />
+                          <label for="weekend-yes">Yes, I did!</label>
+                          <input id="weekend-no" type="radio" name="weekend" value="No!" />
+                          <label for="weekend-no">No, I didn't.</label>
+                          </fieldset>
+                          <fieldset>
+                            <legend>Did you have a favorite subject at camp? (Select all that apply)</legend>
+                            <input type="checkbox" id="choice1" name="choice1" value="math">
+                            <label for="choice1">Math</label>
+                            <input type="checkbox" id="choice2" name="choice2" value="science">
+                            <label for="choice2">Science</label>
+                            <input type="checkbox" id="choice3" name="choice3" value="computers">
+                            <label for="choice3">Computers</label>
+                            <input type="checkbox" id="choice4" name="choice4" value="sports">
+                            <label for="choice4">Physical Education</label>
+                            </fieldset>
+                            <fieldset>
+                              <label for="comments">Any additional comments?</label>
+                              <textarea id="comments" name="comments" rows="4" cols="50">Enter any additional feedback here.</textarea>
+                              </fieldset>
+                              <input id="submit" type="submit" value="Submit the Form">
+                              </form>
+                              </body>
+                              </html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1
+{
+  text-align: center;
+}
+p
+{
+  background-color: blue;
+  font-family: tahoma;
+}
+}
+
+** end of undefined **
+

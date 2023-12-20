@@ -1,0 +1,56 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Legend of Mack Bolan</title>
+    </head>
+    <body>
+    <main id="main">
+      <h1 id="title">Mack Bolan: An Everlasting Soldier</h1>
+      <p>The life of Mack Bolan, a fictional character in the Executioner series, is nothing short of extraordinary.</p>
+      <figure id="img-div">
+        <img id="image" src="https://getapicture.org" alt="This text is in place of a graphic that does not exist, since Bolan is a fictional character." />
+        <figcaption id="img-caption">This caption further represents a graphic; such a graphic, however, doesn't exist in this project.</figcaption>
+        </figure>
+        <section id="tribute-info">
+          <h2>Early Life</h2>
+          <p>Bolan's life was as follows:</p>
+          <ul>
+            <li>He was born</li>
+            <li>He entered the United States Army Special Forces at age 18</li>
+            <li>He has an older sister and a younger brother</li>
+            </ul>
+            <h2>The Military and Beyond</h2>
+            <p>While Bolan was in his third tour of duty in Vietnam, he was thirty-years-old.  This is where <a id="tribute-link" href="https://mackbolan.com" target="_blank">his first book</a> begins.  He waged a one-man war against the mafia in the 1970s, went on to fight the Russians in the 80s, then switched to a global campaign of war against evil in all its forms.  He did not do this alone, of course!  He founded Stony Man, spearheading the fight there before switching to an arms-length relationship with them.  He still fights on, protecting the free world.</p>
+            </section>
+            </main>
+            </body>
+            </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body
+{
+  font-family: Times New Roman;
+}
+h1, h2
+{
+  font-size: 14px;
+}
+#image
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+** end of undefined **
+
