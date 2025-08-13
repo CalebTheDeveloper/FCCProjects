@@ -1,0 +1,37 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Monster Burger Recipe</title>
+    </head>
+    <body>
+    <h1>The Monster Burger!</h1>
+    <p>Have you ever dreamed of a burger, stuffed with cheese? How about one with cheese and green chili? Below is a simple recipe that will allow you to make a delicious burger, larger than most and stuffed with your favorites!</p>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>At least two pounds of ground beef of your choice; 80-20 is recommended</li>
+      <li>Seasonings of choice, such as salt, pepper, garlic powder, and onion powder</li>
+      <li>A large block of cheese</li>
+      <li>Optional: Green chili already peeled and cut</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol>
+        <li>Place your ground beef into a large bowl.</li>
+        <li>Begin to break the meat with your fingers, then begin seasoning it with salt, pepper, garlic powder, and any others you wish.</li>
+        <li>Continue to break down the beef, ensuring that all of it is covered in the seasoning mix.</li>
+        <li>Once the beef is sufficiently seasoned, cut the large block of cheese into cubes and place the cubes into the bowl. If you have green chili or any other small veggies you'd like to add, place them into the bowl as well, but be careful not to overload the bowl.</li>
+        <li>Work the cheese cubes into the meat, then begin forming patties. You will notice they are larger, so be sure that the meat is folded in carefully to avoid splitting the burgers.</li>
+        <li>Place each patty onto a large tray that is covered with foil or parchment paper; this will ensure the raw patties won't stick to the tray.</li>
+        <li>When you have a full tray, you can begin cooking. For best results, grill the patties to your desired level of cook, but make sure the edges remain sealed.</li>
+        <li>Repeat the above steps as needed until all of your beef is used.</li>
+        </ol>
+            <p>This guide assumes that you will have ingredients such as lettuce, tomato, hamburger buns if desired, and other toppings. Thus, we will focus primarily on preparation of the meat.</p>
+        <p>Once your burgers are grilled, assemble as desired. Add an additional slice of cheese or top with lettuce, tomato, mayo, and enjoy!</p>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.gZhsKGS_Euu4eL-iJwsyHAHaGx%3Fpid%3DApi&f=1&ipt=46b2a0a1611bbef1ff8358b2301549e91c86f450c278235791cc04a16a93608b&ipo=images" alt="The image shows a close-up of a hamburger cut in half, revealing its juicy interior. The burger features a thick beef patty with melted cheese oozing out, suggesting it's a cheese-stuffed burger. There are visible layers of crispy bacon and caramelized onions on top of the patty. The burger is sandwiched between soft, lightly toasted buns, and its appetizing appearance highlights the rich, savory ingredients.">
+        </body>
+        </html>
+
+** end of index.html **
+

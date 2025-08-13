@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+      <nav id="navbar">
+        <header>Screen Reader Setup Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Software_Installation">Software Installation</a></li>
+        <li><a class="nav-link" href="#Configuration">Configuration</a></li>
+        <li><a class="nav-link" href="#Other_Settings">Other Settings</a></li>
+        <li><a class="nav-link" href="#Sample_Use_Case">Sample Use Case</a></li>
+          <li><a class="nav-link" href="#Final_Thoughts">Final Thoughts</a></li>
+          </ul>
+          </nav>
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>Before we begin installing a screen reader, it is important to understand what this piece of software does.  A screen reader is any program that allows users who are visually impaired to use a computer.</p>
+          <p>If you've ever wondered how someone who is blind can use a computer, then this documentation will help answer that question for you.  With a screen reading program installed, someone who is blind can do nearly everything sighted users can.  Keep in mind, however, that there are some limitations.</p>
+            <ul>
+              <li>Blind computer users cannot use the computer if the software doesn't start.  Many screen reading programs come with configurations that do not start the program by default prior to user logon, so it's important to check the settings beforehand if necessary.</li>
+              <li>Blind users will not be able to access anything prior to the OS and required audio drivers loading.  Access to recovery options and the BIOS is unavailable to a blind user since the OS has not loaded.</li>
+              </ul>
+<p>This is not an exhaustive list, but these are some things to know beforehand.</p>
+</section>
+<section class="main-section" id="Software_Installation">
+  <header>Software Installation</header>
+  <p>There are many screen reading programs available.  Mac OS has a built-in screen reader, which can be enabled in the settings.  For Windows computer users, however, there are a variety of options, some free and others licensed.  To keep this simple, we will be installing NVDA, or Non-Visual Desktop Access.</p>
+  <p>NVDA can be downloaded from <a href="nvaccess.org" target="_blank">this website.</a>  Once the site loades, look for the Download option.</p>
+  <ul>
+    <li>Note that NVDA is only available for Windows users.</li>
+    <li>When you are on the Download page, click the latest version you see.  The file will begin downloading after you choose an option to either donate to the project or click the Skip option.</li>
+    </ul>
+    <p>Once the file has finished downloading, the installer will begin talking.  Here, you'll see several options, such as to run a temporary copy that is stored in your cache.  To install the software, click the Install option.</p>
+    </section>
+    <section class="main-section" id="Configuration">
+      <header>Configuration</header>
+      <p>The general configuration of the software is up to the user.  However, once the software is installed, which should only take a few seconds, it will present a Welcome dialog box.  This box is intended to introduce the user to some of the more common settings.</p>
+      <p>The option to use the Caps Lock key as an NVDA modifier key simply means that NVDA will use that key as a means to access NVDA functions, such as the NVDA menu.  Unless you don't have an Insert key on your keyboard or don't want to use it, you can leave the box unchecked.  It is also recommended that you check all of the boxes with prompts to start NVDA when logging on, at the logon screen, and for all users should the computer contain multiple profiles.  This is useful even if the user on the computer isn't an administrator so that they know what is happening at all times.</p>
+      </section>
+      <section class="main-section" id="Other_Settings">
+        <header>Other Settings</header>
+        <p>Once the software is installed and you have closed the Welcome screen, you can access settings at any time.</p>
+        <ol>
+          <li>Simply press the NVDA key (the Insert key on your keyboard) along with the letter "N".</li>
+          <li>This will bring up the NVDA menu, which the software will announce.</li>
+          </ol>
+          <p>Once you're in the NVDA menu, you can explore the available options.  To locate Settings specifically, you will need to access the menu, then use the arrow keys until you hear "Preferences".  Note that this is a submenu (additional dropdown), so press the right arrow and you will enter the Preferences list.  Once you locate Settings, press Enter.</p>
+          <p>Once you are in Settings, you will be presented with a list of categories.  This is very similar to navigation to adjust certain settings in web browsers; simply choose the category you want to explore, then press the Tab key to hear the settings you can change.  For example, if you want to explore the Braille category, use the down arrow until you hear "Braille" spoken, and then press Tab.  You should now be able to hear and modify settings related to how the screen reader interacts with braille displays!</p>
+          </section>
+          <section class="main-section" id="Sample_Use_Case">
+            <header>Sample Use Case</header>
+            <p>It has been mentioned that screen readers can be used for those who are blind, but it doesn't just mean that a blind individual is limited to basic computing tasks.  While browsing the internet, sending and receiving emails, and word processing are all standard uses, many blind people use the computer, just as a sighted individual would do, to learn.</p>
+            <p>Blind people simply perform the tasks like a sighted person, the main difference being they have to hear what's on the screen.  One of the more popular choices for computer users is to learn to code.  Much like a sighted person would read code and try and type the code, for example, blind people can do the same thing.</p>
+            <p>For example, screen readers are able to read important coding elements, such as punctuation, as well as distinguish between capitalized characters.  This is critical for coding, since much of the syntax relies on correct punctuation, such as underscores.  Below are a few examples.  If NVDA is installed, this documentation assumes that you have left the default punctuation reading settings as "Most".  This should be all that's necessay to read the below examples.</p>
+            <p>First, we will start with a basic HTML declaration.  The code should look like this.</p>
+            <code><!DOCTYPE html></code>
+            <p>As shown above, this declaration contains a less than symbol, an exclamation point, and a greater than symbol.  If the settings are on their defaults, you should've heard a spoken "les", followed by an inflection for the exclamation point.  After the letters "HTML", you should've heard "greater".  Moving with the right and left arrow keys will also announce these symbols, as well as a differing pitch for the capitalized "doctype" declaration.  Let's try a few more.</p>
+            <ul>
+              <li>Declaring the character type: <code><meta charset="UTF-8" /></code></li>
+              <li>Writing paragraphs in HTML: <code><p>This is a paragraph.</p></code></li>
+              <li>Writing unordered lists: <code><ul>Insert list with list element</ul></code></li>
+              <li>Writing CSS: <code>{font-family: Times New Roman;}</code></li>
+              </ul>
+              <p>While basic, these examples do contain the necessary characters and punctuation to ensure the HTML and CSS are written properly.  If you explore the elements with your arrow keys and listen to the different announcements, you can get an idea of how one who is blind can learn to code.</p>
+          <section class="main-section" id="Final_Thoughts">
+            <header>Final Thoughts</header>
+            <p>While this certainly is not a thorough instruction manual on NVDA, this should serve to provide a foundation of its basic installation and usage.  Since the screen reader is free, it can be downloaded by anyone and is among the most popular screen reader options.  In addition, with its wide variety of configurations and its open-source availability, users are free to customize and use the program in the best way for them.</p>
+            </main>
+            </body>
+            </html>
+
+** end of undefined **
+
+** start of undefined **
+
+  html, body
+  {
+    font-family: Times New Roman;
+    font-size: 12pt;
+  }
+  @media screen and (min-width: 768px) {
+  #navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000;
+  }
+  }
+
+** end of undefined **
+
